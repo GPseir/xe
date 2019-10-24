@@ -1,0 +1,159 @@
+// tablet view
+@media (min-width: 768px) and (max-width: 1124px) {
+
+    $background-color: rgb(49, 46, 46);
+    $container-div-color: rgb(233, 229, 219);
+
+    .container {
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 800px;
+    }
+
+    .grid-container {
+        height: 670px;
+        background: $container-div-color;
+        display: grid;
+        grid-template-columns: 8fr;
+        grid-gap: 10px;
+    }
+
+    .grid-container>div {
+        background: $container-div-color;
+    }
+
+    .grid-banner {
+        grid-row: 3;
+        border: 1px solid black;
+    }
+
+    // box 1
+    .grid-logo {
+        height: 140px;
+        padding: 15px;
+    }
+
+    .grid-logo>img {
+        display: block;
+        margin: auto;
+    }
+
+    // box 2
+    .grid-main {
+        position: relative;
+        display: grid;
+        grid-template-rows: 50px 50px 50px;
+        top: -10px;
+    }
+
+    .grid-main>div {
+        margin: 3px;
+    }
+
+    .grid-searchText {
+        position: inherit;
+        display: block;
+        top: -70px;
+        left: 10px;
+    }
+
+    .popup {
+        width: 82%;
+    }
+
+    .popup-item {
+        font-size: 12px !important;
+    }
+
+    .grid-searchBox {
+        position: relative;
+        top: -75px;
+    }
+
+    .input-search {
+        width: 82%;
+        padding: 7px;
+        margin-left: 50px;
+        padding-left: 38px;
+        padding-right: 38px;
+        font-size: 14px;
+        color: #444;
+        box-sizing: border-box;
+        border: 2px solid white;
+        outline: none;
+        top: -20px;
+        box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.2), 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .search-icon {
+        position: relative;
+        font-size: 20px;
+        left: 78px;
+    }
+
+    .mic-icon {
+        position: relative;
+        font-size: 20px;
+        right: 25px;
+    }
+
+    .message {
+        position: absolute;
+        left: 69px;
+        padding-top: 18px;
+        color: gray;
+        font-size: 16px;
+    }
+
+    .text {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 12%;
+        padding: 20px;
+        padding-left: 35px;
+        color: #FFFFFF;
+        font-size: 13px;
+        border: 1px solid rgb(250, 169, 20);
+        border-radius: 15px;
+        background: rgba(250, 181, 20, 0.80);
+        box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.2), 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+
+
+    .title {
+        font-size: 20px;
+        padding: 5px;
+        padding-left: 60px;
+    }
+
+    .grid-searchButton {
+        padding-top: 195px;
+    }
+
+    .click-button {
+        display: block;
+        margin: auto;
+        padding: 8px 12px;
+    }
+
+    .grid-banner {
+        position: relative;
+        top: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 130px;
+        text-align: center;
+    }
+
+    .grid-banner p {
+        position: relative;
+        top: 50px;
+        margin-bottom: 20px;
+    }
+
+}

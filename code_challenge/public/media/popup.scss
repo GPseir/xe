@@ -1,0 +1,49 @@
+//Popup
+
+$hover-input-color: rgba(250, 180, 20, 0.6);
+$solid-color: rgba(15, 15, 15, 0.2);
+$result-text-color: #424444;
+
+.popup {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    background-color: rgb(250, 249, 246);
+    box-shadow: 0px 0px 15px 2px $solid-color;
+    margin-top: 7px;
+    border-radius: 0px 0px 5px 5px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .popup-container {
+        .popup-content {
+            margin-bottom: 10px;
+            height: 250px;
+            overflow: auto;
+            overflow-x: hidden;
+
+
+            .popup-item {
+                height: 55px;
+                display: flex;
+                font-size: 15px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                border-top: 0.5px solid rgba(15, 15, 15, 0.658);
+                padding: 0 16px;
+                margin: auto;
+                color: $result-text-color;
+                cursor: pointer;
+                transition: all,
+                    230ms ease-in;
+
+                &:hover {
+                    background-color: $hover-input-color;
+                }
+            }
+        }
+    }
+}

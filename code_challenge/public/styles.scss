@@ -1,0 +1,67 @@
+@import "./media/popup.scss";
+@import "./media/desktop.scss";
+@import "./media/tablet.scss";
+@import "./media/smartphone.scss";
+
+$background-color: rgb(60, 60, 60);
+$container-div-color: rgb(233, 229, 219);
+
+#root {
+	background: $background-color;
+	height: 100%;
+}
+
+body {
+	background: $background-color;
+}
+
+.grid-container {
+	position: relative;
+}
+
+.grid-container #search-loader {
+	position: absolute !important;
+	z-index: 10;
+	top: 100px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.click-button {
+	position: relative;
+	background-color: #fab414;
+	color: white;
+	border: 2px solid rgba(250, 180, 20, 0.4);
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.click-button:hover {
+	background-color: rgba(250, 181, 20, 0.066);
+	border: 2px solid rgba(250, 180, 20, 0.6);
+	color: #fab414;
+}
+
+.disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+.disabled:hover {
+	background-color: #fab414 !important;
+	color: white !important;
+	border: 2px solid rgba(250, 180, 20, 0.4) !important;
+}
+
+.show {
+	display: inline-block;
+}
+
+.hide {
+	display: none;
+}

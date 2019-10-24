@@ -1,0 +1,146 @@
+@media (min-width: 1125px) {
+  .container {
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1120px;
+  }
+  .grid-container {
+    height: 670px;
+    background: #e9e5db;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 5fr 1fr;
+        grid-template-columns: 1fr 1fr 5fr 1fr;
+    grid-gap: 10px;
+  }
+  .grid-container > div {
+    background: #e9e5db;
+  }
+  .grid-logo {
+    height: 140px;
+    padding: 5px;
+  }
+  .grid-logo > img {
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 55px;
+    left: 10px;
+    height: 120px;
+    width: 120px;
+  }
+  .grid-banner {
+    border: 1px solid black;
+    position: relative;
+    left: 10px;
+    margin-left: 10px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .grid-banner p {
+    position: relative;
+    top: 420px;
+    margin-bottom: 20px;
+  }
+  .grid-main {
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 50px 100px 50px;
+        grid-template-rows: 50px 100px 50px;
+  }
+  .grid-main > div {
+    margin: 3px;
+  }
+  .grid-searchText {
+    position: inherit;
+    display: block;
+    left: -20px;
+    top: 50px;
+  }
+  .popup {
+    width: 92%;
+    margin-left: 39px;
+  }
+  .popup-item {
+    font-size: 13px !important;
+  }
+  .popup-content {
+    height: 330px !important;
+  }
+  .grid-searchBox {
+    position: relative;
+    top: 55px;
+  }
+  .input-search {
+    width: 92%;
+    padding: 7px;
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 14px;
+    color: #444;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid white;
+    outline: none;
+    top: -10px;
+    -webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.2), 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.2), 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  .search-icon {
+    position: relative;
+    font-size: 20px;
+    left: 48px;
+  }
+  .mic-icon {
+    position: relative;
+    font-size: 20px;
+    left: -25px;
+  }
+  .message {
+    position: absolute;
+    left: 40px;
+    padding-top: 25px;
+    color: gray;
+    font-size: 16px;
+  }
+  .text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+    padding: 20px;
+    padding-left: 40px;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: 1px solid #faa914;
+    border-radius: 15px;
+    background: rgba(250, 181, 20, 0.8);
+    -webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.2), 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.2), 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  .title {
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 60px;
+  }
+  .grid-searchButton {
+    padding-top: 365px;
+  }
+  .click-button {
+    left: 38px;
+    padding: 10px 16px;
+    display: inline-block;
+  }
+  .click-button:hover {
+    background-color: #FAB414;
+    color: white;
+  }
+}
+/*# sourceMappingURL=desktop.css.map */
